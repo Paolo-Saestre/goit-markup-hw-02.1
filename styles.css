@@ -95,3 +95,9 @@
 .pointer {
   cursor: pointer;
 }
+.front-page {
+  background: var(--navyblue, #2e2f42);
+  width: 1440px;
+  height: 600px;
+  flex-shrink: 0;
+}
