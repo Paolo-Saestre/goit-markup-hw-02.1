@@ -4,12 +4,11 @@
     <meta charset="utf-8" />
     <meta name="description" content="Web Studio Page" />
     <title>WebStudio Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <style>
@@ -18,14 +17,20 @@
       }
     </style>
     <header>
-      <a href="/webstudio.html" class="logo-title"
-        ><span class="web-color">Web</span><span class="studio">Studio</span></a
-      >
+      <a href="/index.html" style="text-decoration: none">
+        <p>
+          <b>
+        <span style="font-size: xx-large; color: #4d5ae5">Web</span
+        ><span style="font-size: xx-large; color: #2E2F42>Studio
+        </span>
+        </b>
+        </p>
+        </a>
       <nav>
         <ul>
-          <li><a href="./index.html" class="link-pages">Studio</a></li>
-          <li><a href="./portfolio.html" class="link-pages">Portfolio</a></li>
-          <li><a href="contacts" class="link-pages">Contacts</a></li>
+          <li><a class=" nav-studio" href="./index.html">Studio</a></li>
+          <li><a href="./portfolio.html" class="nav-portfolio">Portfolio</a></li>
+          <li><a href="contacts" class="nav-contacts">Contacts</a></li>
         </ul>
       </nav>
       <ul>
@@ -40,7 +45,7 @@
     <main>
       <section class="front-page">
         <h1 class="header-main">Effective Solutions for Your Business</h1>
-        <div class="pointer"><button type="button">Order Service</button></div>
+        <button class="service" type="button">Order Service</button>
       </section>
       <section>
         <ul class="cards">
@@ -103,7 +108,7 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="background-team">
         <h2>Our Team</h2>
         <ul class="cards">
           <li class="card">
@@ -153,11 +158,14 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <a class="logo-title"
-        ><span class="web-color">Web</span
-        ><span class="studio-footer">Studio</span></a
-      >
+     <footer class="footer-background">
+      <a href="./index.html">
+        <p>
+          <b>
+            <span style="font-size: xx-large; color= #4D5AE5" >Web</span>
+            <span style="font-size: xx-large; color= #F4F4FD" >Studio</span>
+          </b></p>
+      </a>
       <p class="footer-text">
         Increase the flow of customers and <br />sales for your business with
         digital <br />marketing & growth solutions.
