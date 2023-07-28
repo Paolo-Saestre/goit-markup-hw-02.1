@@ -13,13 +13,23 @@
   font-weight: 800;
   line-height: 21px;
 }
-.web-color {
+.web-logo {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 21px;
+}
+.studio-logo {
+  color: var(--navyblue, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 .header-main {
   color: var(--white, #fff);
@@ -64,13 +74,25 @@
   font-weight: 400;
   line-height: 24px;
 }
-.studio-footer {
+.studio-logo-footer {
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
   line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.web-logo-footer {
+  color: var(--iris, #4d5ae5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
 }
 .footer-text {
   color: var(--cloud, #f4f4fd);
@@ -100,4 +122,7 @@
 }
 .footer-background {
   color: var(--navyblue, #2e2f42);
+}
+.a {
+  text-decoration: none;
 }
