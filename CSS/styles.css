@@ -4,14 +4,14 @@
   --whitecolor: #ffffff;
   --secondarycolor: #4d5ae5;
 }
-.body {
+body {
   font-family: var(--primaryfont);
   color: #434455;
   background-color: var(--whitecolor);
 }
-.ul,
-.ol,
-.a {
+ul,
+ol,
+a {
   list-style-type: none;
   text-decoration: none;
 }
